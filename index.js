@@ -40,7 +40,7 @@ async function main(){
             console.log(`hasil konversi ${base} celcius ke reamur =`, reamur)
             break
         case '2':
-            let fahrenheit = await convertToFahrenheit(fahrenheit)
+            let fahrenheit = await convertToFahrenheit(base)
             console.log(`hasil konversi ${base} celcius ke fahrenheit = `, fahrenheit)
             break
         case '3':
