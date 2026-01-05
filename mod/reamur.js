@@ -3,6 +3,6 @@ export async function convertToReamur(base) {
       let toReamur = base * 4/5
       return toReamur
     } catch (err) {
-        console.log(err)
+        return(err)
     }
 }
